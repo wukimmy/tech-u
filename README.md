@@ -1,6 +1,6 @@
 # Aplicação Web
 
-## Como realizar manualmente o build deste projeto
+## Como realizar manualmente o build e deployment deste projeto
 
 Inicie uma instância EC2 utilizando o `Amazon Linux`;
 
@@ -42,8 +42,15 @@ Copie o diretório com sua aplicação para o diretório `html` do nginx utiliza
 
 Inicie o nginx:
 
-    sudo nginx
+    sudo ngin
 
 Acesse a sua aplicação através da url:
 
     <Hostname de sua instancia EC2>/tech-u/
+
+
+## Realizei o deployment. E agora?
+
+Pode ser que você não tenha conseguido acessar sua aplicação devidamente. Não se preocupe. Isso faz parte do exercício. Agora, seu objetivo é corrigir eventuais problemas, conseguir acessar sua aplicação e automatizar este processo de deployment utilizando as ferramentas existentes no ecossistema da AWS (CloudFormation, awscli).
+
+No final desta sprint, seu grupo precisará realizar uma apresentação com 3 slides contendo: desenho da arquitetura, o que deu certo e o que deu errado durante o processo (lições aprendidas).

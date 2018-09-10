@@ -53,4 +53,8 @@ Acesse a sua aplicação através da url:
 
 Pode ser que você não tenha conseguido acessar sua aplicação devidamente. Não se preocupe. Isso faz parte do exercício. Agora, seu objetivo é corrigir eventuais problemas, conseguir acessar sua aplicação e automatizar este processo de deployment utilizando as ferramentas existentes no ecossistema da AWS (CloudFormation, awscli).
 
-No final desta sprint, seu grupo precisará realizar uma apresentação com 3 slides contendo: desenho da arquitetura, o que deu certo e o que deu errado durante o processo (lições aprendidas).
+No final desta sprint, seu grupo precisará realizar uma apresentação com 3 slides contendo:
+
+* Desenho da arquitetura;
+* O que deu certo;
+* O que deu errado durante o processo (lições aprendidas).

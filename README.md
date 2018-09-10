@@ -58,3 +58,5 @@ No final desta sprint, seu grupo precisará realizar uma apresentação com 3 sl
 * Desenho da arquitetura;
 * O que deu certo;
 * O que deu errado durante o processo (lições aprendidas).
+
+Além dos scripts com o processo de automação.

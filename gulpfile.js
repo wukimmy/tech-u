@@ -98,6 +98,26 @@ gulp.task('js:minify', function() {
     .pipe(browserSync.stream());
 });
 
+//Coping all necessary to dist
+gulp.task('dist', function () {
+  //Coping index to dist
+  gulp.src(
+    './index.html'
+  )
+    .pipe(gulp.dest('./dist'));
+  //Coping img foldeer to dist
+  gulp.src(
+    'img/**/*'
+  )
+    .pipe(gulp.dest('./dist/img'));
+  //Coping mp4 folder to dist
+  gulp.src(
+    'mp4/**/*'
+  )
+    .pipe(gulp.dest('./dist/mp4/'));
+
+});
+
 // JS
 gulp.task('js', ['js:minify']);
 

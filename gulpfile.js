@@ -122,7 +122,7 @@ gulp.task('dist', function () {
 gulp.task('js', ['js:minify']);
 
 // Default task
-gulp.task('default', ['css', 'js', 'vendor']);
+gulp.task('default', ['css', 'js', 'vendor', 'dist']);
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {

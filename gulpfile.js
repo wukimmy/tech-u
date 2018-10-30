@@ -114,6 +114,11 @@ gulp.task('dist', function () {
     'mp4/**/*'
   )
     .pipe(gulp.dest('./dist/mp4/'));
+  //Coping vendor folder to dist
+  gulp.src(
+    'vendor/**/*'
+  )
+    .pipe(gulp.dest('./dist/vendor/'));
 
 });
 
